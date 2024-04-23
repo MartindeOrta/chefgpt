@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPT Spress</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      background-color: #add8e6; /* Azul claro */
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    h2 {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    #logo {
+      width: 30%;
+      cursor: pointer;
+    }
+    #botTitle {
+      font-size: 30px;
+      text-align: left;
+    }
+    .happyIcon {
+      cursor: pointer;
+      font-size: 24px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GPT Spress</h1>
+    <h2>Aquí estamos</h2>
+    <a href="https://martindeorta.github.io/cmdeorta/principal.html" target="_blank">Enlace</a><br><br>
+    <a href="https://www.educacionit.com/" target="_blank"><img id="logo" src="https://static.educacionit.com/educacionit/assets/imagotype-it-fill-v2-color.svg" alt="EducacionIT Logo"></a><br><br>
+    <p>Acceso a la cursada en DISCORD <span class="happyIcon" onclick="openDiscord()">😊</span></p>
+  </div>
+
+  <!-- Widget de Botpress -->
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script src="https://mediafiles.botpress.cloud/0ec34d4f-5eee-4090-bfbc-b46c8401a622/webchat/config.js" defer></script>
+
+  <!-- Función para abrir Discord -->
+  <script>
+    function openDiscord() {
+      window.open("https://discord.com/channels/859921242023133215/1208070718844174406", "_blank");
+    }
+  </script>
+</body>
+</html>
